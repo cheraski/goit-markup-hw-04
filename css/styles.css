@@ -18,15 +18,24 @@ body {
   font-family: var(--title-font);
 }
 
-.link {
-  text-decoration: none;
-  font-style: normal;
-}
 ul {
   list-style: none;
 }
 
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* logo */
+
+.link-logo {
+  text-decoration: none;
+  font-style: normal;
+}
 
 .logo {
   color: var(--focus-cl);
@@ -81,31 +90,25 @@ ul {
 .cont-item:not(:first-child) {
   margin-left: 50px;
 }
-.container {
-  width: 1170px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .page-header .container {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
 }
 
-.page-header {
-  padding-top: 25px;
-  padding-bottom: 25px;
+.link {
+  text-decoration: none;
+  font-style: normal;
+  display: block;
 }
-
 .nav {
   display: flex;
   margin-right: auto;
   align-items: center;
 }
 .site-nav .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-family: var(--title-font);
   font-weight: 500;
   font-size: 14px;
@@ -118,6 +121,7 @@ ul {
 .site-nav .link:focus {
   color: var(--focus-cl);
 }
+
 .cont-nav .link {
   font-family: var(--title-font);
   font-weight: 500;
@@ -142,28 +146,51 @@ ul {
   color: var(--logo-footer-cl);
 }
 
-/* main section */
+/*hero section*/
 
 .hero {
-  font-family: var (--title-font);
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px1.36;
   text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+}
+
+.hero-title {
   margin-top: 0px;
   margin-bottom: 30px;
 
+  font-family: var(--title-font);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--logo-footer-cl);
   background-color: var(--bg-footer-cl);
 }
-.hero-title {
-  padding-top: 200px;
-  padding-bottom: 220px;
-  background-color: var(--bg-footer-cl);
+.btn-hero {
+  width: 200px;
+  height: 50px;
+  padding: 10px 32px;
+  border-radius: 4px;
+  font-family: var(--title-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--focus-cl);
+  color: var(--button-cl);
+  cursor: pointer;
 }
+
+.btn-hero:hover,
+.btn-hero:focus {
+  background-color: var(--logo-footer-cl);
+  color: var(--focus-cl);
+}
+
+/* features section */
+
 .features-list {
   font-family: var(--title-font);
   font-style: normal;
@@ -222,30 +249,6 @@ ul {
 
   color: var(--title-cl);
 }
-.btn-hero {
-  width: 200px;
-  height: 50px;
-  padding: 10px 32px;
-  border-radius: 4px;
-  font-family: var(--title-font);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  background-color: var(--button-cl);
-  color: var(--main-title-cl);
-  cursor: pointer;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-}
-
-.btn-hero:hover,
-.btn-hero:focus {
-  background-color: var(--focus-cl);
-  color: var(--logo-footer-cl);
-}
 
 .btn {
   width: 200px;
@@ -295,6 +298,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
+  text-decoration: none;
   color: var(--title-cl);
 }
 .ft-link:hover,
