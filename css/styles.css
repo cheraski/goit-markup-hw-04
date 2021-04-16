@@ -221,9 +221,9 @@ ul {
   display: flex;
   padding-left: 0px;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-/* .features-item, */
 .inside-item {
   margin-top: 94px;
   align-items: center;
@@ -233,10 +233,14 @@ ul {
 
 .inside-item:not(:last-child) {
   margin-right: 30px;
-
+}
 
 /* activity section */
-.activity {
+
+.activity-title {
+  margin-top: 94px;
+  margin-bottom: 50px;
+
   font-family: var(--title-font);
   font-style: normal;
   font-weight: bold;
@@ -245,7 +249,27 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var (--main-title-cl);
+  color: var(--main-title-cl);
+}
+
+.ativity-item {
+  display: flex;
+  margin-left: 0px;
+  padding-top: 0px;
+}
+
+/* team section */
+
+.team-title {
+  font-family: var(--title-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-title-cl);
 }
 .team {
   font-family: var(--title-font);
