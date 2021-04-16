@@ -192,6 +192,8 @@ ul {
 /* features section */
 
 .features-list {
+  margin-top: 0;
+
   font-family: var(--title-font);
   font-style: normal;
   font-weight: bold;
@@ -203,6 +205,8 @@ ul {
   color: var(--main-title-cl);
 }
 .features {
+  margin: 0px;
+
   font-family: var(--title-font);
   font-style: normal;
   font-weight: normal;
@@ -213,6 +217,25 @@ ul {
   color: var(--title-cl);
 }
 
+.features-item {
+  display: flex;
+  padding-left: 0px;
+  margin-top: 0px;
+}
+
+/* .features-item, */
+.inside-item {
+  margin-top: 94px;
+  align-items: center;
+  width: 270px;
+  height: 101px;
+}
+
+.inside-item:not(:last-child) {
+  margin-right: 30px;
+
+
+/* activity section */
 .activity {
   font-family: var(--title-font);
   font-style: normal;
