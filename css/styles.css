@@ -336,11 +336,10 @@ ul {
 
 /* portfolio */
 .btn {
-  width: 200px;
-  height: 50px;
-  padding: 10px 32px;
+  padding: 6px 22px;
   border-radius: 4px;
   font-family: var(--title-font);
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -350,11 +349,28 @@ ul {
   color: var(--main-title-cl);
   cursor: pointer;
 }
-
+.btn:not(:last-child) {
+  margin-right: 30px;
+}
 .btn:hover,
 .btn:focus {
   background-color: var(--focus-cl);
   color: var(--logo-footer-cl);
+}
+.btn-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+
+/* projects */
+
+.project-box {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .title-project {
@@ -375,6 +391,21 @@ ul {
 }
 
 /* footer */
+
+.ft-address {
+  margin-right: 0px;
+  width: 231px;
+  height: 81px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  padding-left: 0px;
+}
+
+.address-list:not(:last-child) {
+  margin-bottom: 9px;
+}
 
 .ft-link {
   font-family: var(--title-font);
