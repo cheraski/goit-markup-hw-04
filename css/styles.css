@@ -307,8 +307,9 @@ ul {
 .team-menu {
   display: flex;
   padding-left: 0px;
-  margin-bottom: 94px;
+  margin-bottom: 0px;
   margin-top: 0px;
+  padding-bottom: 94px;
 }
 
 .team-item {
