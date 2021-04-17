@@ -351,8 +351,8 @@ ul {
   color: var(--main-title-cl);
   cursor: pointer;
 }
-.btn:not(:last-child) {
-  margin-right: 30px;
+.btn {
+  margin-right: 8px;
 }
 .btn:hover,
 .btn:focus {
@@ -413,6 +413,8 @@ ul {
 
 /* footer */
 
+.ft-position {
+}
 .ft-address {
   margin-right: 0px;
   width: 231px;
