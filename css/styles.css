@@ -314,6 +314,8 @@ ul {
 .team-item {
   height: 368px;
   width: 270px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .team-item:not(:last-child) {
   margin-right: 30px;
@@ -371,6 +373,18 @@ ul {
 .project-box {
   display: flex;
   flex-wrap: wrap;
+  padding-left: 0;
+  margin-top: 34px;
+  margin-bottom: 108px;
+}
+
+.project-item {
+  margin-bottom: 16px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.project-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .title-project {
