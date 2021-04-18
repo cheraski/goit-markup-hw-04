@@ -238,8 +238,9 @@ ul {
 /* activity section */
 
 .activity-title {
-  margin-top: 94px;
-  margin-bottom: 50px;
+  margin: 0px;
+  padding-top: 94px;
+  padding-bottom: 50px;
 
   font-family: var(--title-font);
   font-style: normal;
@@ -276,8 +277,9 @@ ul {
 /* team section */
 
 .team-title {
-  margin-top: 188px;
-  margin-bottom: 50px;
+  margin: 0px;
+  padding-top: 94px;
+  padding-bottom: 50px;
 
   font-family: var(--title-font);
   font-style: normal;
