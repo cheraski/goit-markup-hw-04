@@ -276,6 +276,10 @@ ul {
 
 /* team section */
 
+.bg-team {
+  background-color: var(--button-cl);
+}
+
 .team-title {
   margin: 0px;
   padding-top: 94px;
