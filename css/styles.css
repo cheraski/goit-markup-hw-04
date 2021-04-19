@@ -203,6 +203,10 @@ ul {
 
 /* features section */
 
+.features-section {
+  margin-top: 94px;
+}
+
 .features-list {
   margin-top: 0;
 
@@ -237,7 +241,7 @@ ul {
 }
 
 .inside-item {
-  margin-top: 94px;
+  margin-top: 0px;
   align-items: center;
   width: 270px;
   height: 101px;
@@ -249,9 +253,14 @@ ul {
 
 /* activity section */
 
+.activity-section {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
 .activity-title {
   margin: 0px;
-  padding-top: 94px;
+  padding-top: 0px;
   padding-bottom: 50px;
 
   font-family: var(--title-font);
@@ -269,7 +278,6 @@ ul {
   display: flex;
   justify-content: space-between;
 
-  padding-bottom: 94px;
   margin-top: 0;
   padding-left: 0;
   margin-bottom: 0px;
@@ -287,13 +295,13 @@ ul {
 
 /* team section */
 
-.bg-team {
+.team-section {
+  padding-bottom: 94px;
   background-color: var(--button-cl);
 }
 
 .team-title {
   margin: 0px;
-  padding-top: 94px;
   padding-bottom: 50px;
 
   font-family: var(--title-font);
@@ -327,7 +335,6 @@ ul {
   padding-left: 0px;
   margin-bottom: 0px;
   margin-top: 0px;
-  padding-bottom: 94px;
 }
 
 .team-item {
