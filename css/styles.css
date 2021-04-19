@@ -283,8 +283,6 @@ ul {
   margin-left: 0px;
   padding-top: 0px;
   margin-right: 30;
-  width: 370;
-  height: 294;
 }
 
 /* team section */
@@ -333,7 +331,7 @@ ul {
 }
 
 .team-item {
-  width: 270px;
+  width: calc ((100% - 90px) / 4);
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
@@ -372,6 +370,7 @@ ul {
 .btn {
   margin-right: 8px;
 }
+
 .btn:hover,
 .btn:focus {
   background-color: var(--focus-cl);
@@ -387,12 +386,11 @@ ul {
   padding-bottom: 50px;
 }
 
-/* projects */
+/* Проекты */
 
 .project-box {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
   padding: 0px;
   margin: 0px;
 }
