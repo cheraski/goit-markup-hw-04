@@ -260,11 +260,6 @@ ul {
 
 /* activity section */
 
-.activity-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .activity-title {
   margin: 0px;
   padding-top: 0px;
@@ -301,11 +296,6 @@ ul {
 }
 
 /* team section */
-
-.team-section {
-  padding-bottom: 94px;
-  background-color: var(--button-cl);
-}
 
 .team-title {
   margin: 0px;
