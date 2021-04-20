@@ -35,6 +35,17 @@ ul {
   margin-right: auto;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section:nth-child(3n) {
+  padding-top: 0px;
+  padding-bottom: 94px;
+  background-color: var(--button-cl);
+}
+
 /* logo */
 
 .link-logo {
@@ -203,10 +214,6 @@ ul {
 
 /* features section */
 
-.features-section {
-  margin-top: 94px;
-}
-
 .features-list {
   margin-top: 0;
 
@@ -254,8 +261,8 @@ ul {
 /* activity section */
 
 .activity-section {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .activity-title {
@@ -449,10 +456,6 @@ ul {
 
 /* footer */
 
-.ft-position {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
 .ft-address {
   margin-right: 0px;
   width: 231px;
@@ -484,5 +487,7 @@ ul {
 }
 
 .bg-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--bg-footer-cl);
 }
