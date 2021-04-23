@@ -672,6 +672,9 @@ ul {
   color: #ffffff;
 }
 
+.footer-content {
+  display: flex;
+}
 /* footer icons */
 .footer-social-position {
   display: block;
