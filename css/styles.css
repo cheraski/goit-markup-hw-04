@@ -681,7 +681,8 @@ ul {
   width: 206px;
   height: 80px;
   margin: 0px;
-  padding: 0px;
+  padding-left: 70px;
+  padding-top: 12px;
   flex-direction: row;
   align-items: stretch;
 }
