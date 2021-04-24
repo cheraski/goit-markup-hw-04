@@ -175,12 +175,14 @@ ul {
   margin-right: 10px;
   background-repeat: no-repeat;
   background-position: center;
+  fill: var(--title-cl);
 }
 
 .cont-icon-mail {
   margin-right: 10px;
   background-repeat: no-repeat;
   background-position: center;
+  fill: var(--title-cl);
 }
 
 .cont-icon-mail:hover,
