@@ -110,7 +110,7 @@ ul {
 }
 
 .page-header {
-  border-bottom: 2px solid #eeeeee;
+  border-bottom: 2px solid var(--border-cl);
 }
 .page-header .container {
   display: flex;
@@ -219,8 +219,10 @@ ul {
 .hero-title {
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 30px;
-
+  max-width: 696px;
   font-family: var(--title-font);
   font-style: normal;
   font-weight: 900;
